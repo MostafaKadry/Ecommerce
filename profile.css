@@ -1,0 +1,33 @@
+.profile-page-section {
+    margin: 15px auto;
+    width: 70%;
+    background-color: #00111a;
+    color: #ffffff;
+}
+.profile-default-user-img {
+    text-align: center;
+/*    font-size: 1300%;*/
+    margin: auto;
+    width: 24%;
+}
+#user-uploaded-image {
+    width: 100%;
+    border-radius: 10%;
+    margin-top: 24px;
+}
+.user-profile-information {
+    margin: 18px auto;
+    width: 20%;
+    
+}
+#profile-username {
+    color: gold;
+    text-align: center;
+}
+
+#go-to-edit-profile-btn {
+    margin: 15px auto;
+    width: 200px;
+    font-size: 15px;
+    padding: 5px;
+}

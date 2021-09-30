@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Shopping Card | Home Page</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    </head> 
+    <body>
+        
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="brand">move to home</a>
+                    <nav>
+                        <ul id="links">
+                            <li><a href="login.html">Sign in</a></li>
+                            <li><a href="register.html">Sign up</a></li>
+                            
+                        </ul>
+                        <ul id="user-info" class="userinfo">
+                            <li><a href="profile.html" id="user">user name is replaced here</a></li>
+                            <li><a href="favurites.html">favourites</a></li>
+                            <li><a href="myproducts.html">My Products</a></li>
+                            <li class="shopping-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge"></span>
+                            </li>
+                            <li>
+                                <div class="carts-products">
+                                    <div class="cart-selected-product"></div>
+                                    
+                                    <a href="cardProducts.html">cart purshases</a>
+                                </div>
+                            </li>
+                            <li><a href="#" id="logout">log out</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="home">
+            <div class="container">
+                <input type="text" placeholder="Search by name" class="search" />
+                
+                <div class="products-filter-container">
+                    <h2>Filter By Size: </h2>
+                    <select id="size-filter">
+                        <option value="" hidden>filter by size</option>
+                        <option value="all">all sizes</option>
+                        <option value = "2 GB">2 GB</option>
+                        <option value = "8 GB">8 GB</option>
+                        <option value = "16 GB">16 GB</option>
+                        <option value = "32 GB">32 GB</option>
+                        <option value = "64 GB">64 GB</option>
+                        <option value = "132 GB">132 GB</option>
+                        <option value = "260 GB">260 GB</option>
+                    </select>
+                </div>
+                <div class="products"></div>
+            </div>
+            <a href="creatproduct.html" class="create-product-icon"> <i class="fas fa-plus"></i></a>
+        </section>
+        
+        <script src="js/user.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/ONLY open cart menu fn.js"></script>
+    </body>
+</html>

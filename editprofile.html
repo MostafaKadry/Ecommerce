@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Shopping Card | Edit profile</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="editprofile.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    </head> 
+    <body>
+        
+              <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="brand">move to home</a>
+                    <nav>
+                        <ul id="links">
+                            <li><a href="login.html">Sign in</a></li>
+                            <li><a href="register.html">Sign up</a></li>
+                            
+                        </ul>
+                        <ul id="user-info">
+                            <li><a href="#" id="user">user name is replaced here</a></li>
+                            <li><a href="favurites.html">favourites</a></li>
+                            <li><a href="myproducts.html">My Products</a></li>
+                            <li class="shopping-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge"></span>
+                            </li>
+                            <li>
+                                <div class="carts-products">
+                                    <div class="cart-selected-product"></div>
+                                    
+                                    <a href="cardProducts.html">cart purshases</a>
+                                </div>
+                            </li>
+                            <li><a href="#" id="logout">log out</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="edit-profile-section">
+           <div class="container">
+                 <form id="form-edit-profile">
+                    <img src="" id="profile-img-to-edit" alt="user image to edit" />
+                     <input type="file" id="imginpt" />
+                    <input type="button" id="upload-img-btn" value="up-load imge" />
+                    <input type="text" id="changeneme" />
+                    <input type="email" id="changeemail" />
+                    <input type="password" id="changepassword" />
+                    <input type="submit" id="edit-submit-btn" value="edit"/>
+                </form>
+            </div>
+        </section>
+        <script  src="js/data.js"></script>
+        <script src="js/user.js"></script>
+        <script src="js/editprofile.js" ></script>
+         <script src="js/ONLY open cart menu fn.js"></script>
+    </body>
+</html>
